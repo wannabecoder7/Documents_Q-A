@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+sqlalchemy>=2.0
+asyncpg<0.29.0  # asyncpg 0.29+ needs Rust
+pydantic<2.0  # Pydantic v2 needs Rust, stick to v1.x
